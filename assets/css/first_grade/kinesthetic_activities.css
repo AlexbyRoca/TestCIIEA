@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.body-image {
+    position: relative;
+    margin: 20px auto;
+    width: 150px; /* Ajusta el tamaño según tus necesidades */
+    height: 400px; /* Ajusta el tamaño según tus necesidades */
+    margin-top: 40px;
+}
+
+/* Partes del cuerpo */
+.body-part {
+    position: absolute;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Cabeza */
+.head {
+    background-color: #f8c8b7; /* Color de piel */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    top: 0;
+    left: 40px;
+}
+
+/* Torso */
+.torso {
+    background-color: #f8c8b7; /* Color de piel */
+    width: 80px;
+    height: 120px;
+    top: 60px;
+    left: 35px;
+}
+
+/* Brazo Izquierdo */
+.arm-left {
+    background-color: #f8c8b7; /* Color de piel */
+    width: 20px;
+    height: 80px;
+    top: 80px;
+    left: 10px;
+}
+
+/* Brazo Derecho */
+.arm-right {
+    background-color: #f8c8b7; /* Color de piel */
+    width: 20px;
+    height: 80px;
+    top: 80px;
+    left: 120px;
+}
+
+/* Pierna Izquierda */
+.leg-left {
+    background-color: #f8c8b7; /* Color de piel */
+    width: 30px;
+    height: 100px;
+    top: 180px;
+    left: 40px;
+}
+
+/* Pierna Derecha */
+.leg-right {
+    background-color: #f8c8b7; /* Color de piel */
+    width: 30px;
+    height: 100px;
+    top: 180px;
+    left: 80px;
+}
+
+.info {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

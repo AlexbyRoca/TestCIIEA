@@ -1,0 +1,168 @@
+body {
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+}
+
+#customNavbar {
+    background: transparent; /* Para que el navbar no tenga color de fondo */
+    padding: 20px 15px; /* Ajustar el padding según sea necesario */
+    box-shadow: none; /* Eliminar sombras */
+}
+
+.navbar .navbar-brand img {
+    margin-right: 10px; /* Espaciado entre los logos */
+}
+
+.navbar .nav-link {
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); /* Color de texto de los enlaces */
+    font-weight: bold; /* Resaltar texto de enlaces */
+}
+
+.navbar .nav-link:hover {
+    color: #000; /* Cambiar color al pasar el mouse */
+}
+/* Contenedor de logos */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo de los logos */
+.tabedu-logo, .main-logo {
+    width: 100px;  /* Ajuste el ancho según lo necesite */
+    height: auto;
+    margin-right: 10px;
+    object-fit: contain;
+}
+
+#navbar {
+    background: linear-gradient(135deg, #6dd5ed, #0056b3);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+}
+
+.navbar-title {
+    margin-left: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    margin-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.nav-item strong {
+    color: #FFD700; /* Color dorado para resaltar */
+}
+
+
+#mainForm {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+#mainForm:hover {
+    transform: scale(1.02);
+}
+
+#header {
+    margin-bottom: 20px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.space {
+    margin-bottom: 15px;
+}
+
+.progress {
+    height: 20px;
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+}
+
+#btnSend {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#btnSend:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    color: #333;
+}
+
+#mainForm {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+#mainForm:hover {
+    transform: scale(1.02);
+}
+
+#header {
+    margin-bottom: 20px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.space {
+    margin-bottom: 15px;
+}
+
+.progress {
+    height: 20px;
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+}
+
+#btnSend {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#btnSend:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+td {
+    font-variant: normal;
+    font-size: 16px;
+    text-transform: none;
+}
+

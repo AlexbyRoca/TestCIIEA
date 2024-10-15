@@ -1,0 +1,73 @@
+/* asociacion_visual.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #283c86, #45a247);
+    text-align: center;
+}
+
+h2 {
+    color: #e4d7d7;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.columna {
+    width: 40%;
+}
+
+.izquierda, .derecha {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.termino, .definicion {
+    background-color: #e8f0fe;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #d1d9e6;
+}
+
+.termino:active {
+    background-color: #d1e3fd;
+}
+
+.correcto {
+    background-color: #c8e6c9;
+}
+
+.incorrecto {
+    background-color: #ffcdd2;
+}
+.actividad-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#terminos, #definiciones {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#siguiente:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}

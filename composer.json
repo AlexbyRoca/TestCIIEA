@@ -1,12 +1,28 @@
 {
-    "name": "andyr/test-ciiea",
-    "description": "PROYECTO DE TEST DE ESTILOS DE APRENDIZAJES",
+    "name": "mpdf/psr-http-message-shim",
+    "description": "Shim to allow support of different psr/message versions.",
+    "type": "library",
+    "require": {
+        "psr/http-message": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mpdf\\PsrHttpMessageShim\\": "src/"
+        }
+    },
     "authors": [
         {
-            "name": "N"
+            "name": "Mark Dorison",
+            "email": "mark@chromatichq.com"
+        },
+        {
+            "name": "Kristofer Widholm",
+            "email": "kristofer@chromatichq.com"
+        },
+        {
+            "name": "Nigel Cunningham",
+            "email": "nigel.cunningham@technocrat.com.au"
         }
-    ],
-    "require": {
-        "mpdf/mpdf": "^8.2"
-    }
+    ]
 }

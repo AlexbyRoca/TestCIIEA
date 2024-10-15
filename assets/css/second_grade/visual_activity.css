@@ -1,0 +1,148 @@
+/* Fondo degradado */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+/* Título */
+h1 {
+    font-size: 2.5em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Texto descriptivo */
+p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Sopa de letras */
+.sopa {
+    margin: 20px 0;
+    display: inline-block;
+}
+
+#wordsearch {
+    border-collapse: collapse;
+}
+
+#wordsearch td {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#wordsearch td:hover {
+    background-color: #eef5ff;
+}
+
+.selected {
+    background-color: #d0e9ff;
+}
+
+.found {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+/* Lista de palabras */
+#wordList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+#wordList li {
+    font-size: 20px;
+    color: #333;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+#wordList li:before {
+    content: "•";
+    color: #4CAF50;
+    margin-right: 10px;
+}
+
+/* Botón "Continuar" */
+#continueBtn {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: not-allowed;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#continueBtn:enabled {
+    cursor: pointer;
+    background-color: #67d867;
+    transform: translateY(-2px);
+}
+
+#continueBtn:enabled:hover {
+    background-color: #5ec65e;
+    transform: scale(1.05);
+}
+/* Añadir estilos para la actividad de rimas */
+#rhymeOptions {
+    list-style-type: none;
+    padding: 0;
+}
+
+.rhymeOption {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #333;
+    background-color: #e7f3fe;
+    transition: background-color 0.3s;
+}
+
+.rhymeOption:hover {
+    background-color: #b0e0fe; /* Color al pasar el mouse */
+}
+
+.found {
+    background-color: #7cd97c;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: underline;
+}

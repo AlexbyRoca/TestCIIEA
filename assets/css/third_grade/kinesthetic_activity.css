@@ -1,0 +1,72 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #283c86, #45a247);
+    color: white;
+}
+
+#botones {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.boton {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#rojo {
+    background-color: #ff4c4c;
+}
+
+#azul {
+    background-color: #4c4cff;
+}
+
+#verde {
+    background-color: #4cff4c;
+}
+
+#amarillo {
+    background-color: #ffff4c;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#mensaje {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #228b22;
+    font-weight: bold;
+}
+@keyframes cambioColor {
+    0% { background-color: #ff4b4b; }
+    25% { background-color: #ffd24b; }
+    50% { background-color: #4bff6b; }
+    75% { background-color: #4bdaff; }
+    100% { background-color: #ff4b4b; }
+}
+
+.cuadro-color {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+    animation: cambioColor 3s infinite;
+}
+.resaltar {
+    border: 3px solid white; /* Cambia el borde al resaltar */
+}

@@ -1,0 +1,109 @@
+/* Reiniciar márgenes y establecer el box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #283c86, #45a247);
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333333;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezados */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #283c86;
+}
+
+/* Texto introductorio */
+.intro, p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #555555;
+}
+
+/* Opciones de selección */
+.options, #rhymeOptions {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* Botones de opciones de rima */
+.rhymeOption, .option-btn {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007BFF;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.rhymeOption:hover, .option-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Estilo especial para la opción correcta */
+.rhymeOption.found {
+    background-color: #28a745;
+    color: #ffffff;
+    text-decoration: underline;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Botón de continuar */
+button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Estilo para el resultado */
+.result, #result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #28a745;
+}
+
+/* Ocultar elementos */
+.hidden {
+    display: none;
+}

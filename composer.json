@@ -1,0 +1,12 @@
+{
+    "name": "andyr/test-ciiea",
+    "description": "PROYECTO DE TEST DE ESTILOS DE APRENDIZAJES",
+    "authors": [
+        {
+            "name": "N"
+        }
+    ],
+    "require": {
+        "mpdf/mpdf": "^8.2"
+    }
+}
